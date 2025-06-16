@@ -12,7 +12,21 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+        
+        combo_lctrl {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+            bindings = <&kp LCTRL>;
+        };
+        
+        combo_rctrl {
+            timeout-ms = <50>;
+            key-positions = <14 15>;
+            bindings = <&kp RCTRL>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
