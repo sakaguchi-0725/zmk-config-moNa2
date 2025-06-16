@@ -23,7 +23,7 @@
         
         combo_rctrl {
             timeout-ms = <150>;
-            key-positions = <14 15>;
+            key-positions = <21 22>;
             bindings = <&kp RCTRL>;
         };
     };
