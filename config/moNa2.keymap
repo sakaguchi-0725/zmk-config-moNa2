@@ -17,13 +17,13 @@
 
         combo_lctrl {
             timeout-ms = <150>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
             bindings = <&kp LCTRL>;
         };
         
         combo_rctrl {
             timeout-ms = <150>;
-            key-positions = <20 21>;
+            key-positions = <19 20>;
             bindings = <&kp RCTRL>;
         };
     };
