@@ -26,6 +26,26 @@
             key-positions = <19 20>;
             bindings = <&kp RCTRL>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 9>;
+        };
+
+        sqt {
+            bindings = <&kp SQT>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
