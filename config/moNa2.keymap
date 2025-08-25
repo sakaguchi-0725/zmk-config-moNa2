@@ -28,7 +28,7 @@
         };
 
         esc {
-            bindings = <&kp ESC>;
+            bindings = <&kp GRAVE>;
             key-positions = <1 0>;
         };
 
@@ -38,13 +38,18 @@
         };
 
         minus {
-            bindings = <&kp MINUS>;
+            bindings = <&kp EQUAL>;
             key-positions = <8 9>;
         };
 
         sqt {
             bindings = <&kp SQT>;
             key-positions = <20 21>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <7 8>;
         };
     };
 
