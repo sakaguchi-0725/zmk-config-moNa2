@@ -38,18 +38,13 @@
         };
 
         equal {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp MINUS>;
             key-positions = <8 9>;
         };
 
         sqt {
             bindings = <&kp SQT>;
             key-positions = <20 21>;
-        };
-
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <7 8>;
         };
     };
 
@@ -106,7 +101,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE  &trans            &trans    &trans          &trans                        &kp LPAR         &kp RPAR        &kp LBKT        &kp RBKT   &kp MINUS
-&kp EXCL   &kp AT            &kp HASH  &kp DLLR        &kp PRCNT  &trans    &trans   &kp STAR         &kp RC(A)       &kp UP_ARROW    &kp RC(E)  &kp SQT
+&kp EXCL   &kp AT            &kp HASH  &kp DLLR        &kp PRCNT  &trans    &trans   &kp STAR         &kp RC(A)       &kp UP_ARROW    &kp RC(E)  &kp EQUAL
 &trans     &trans            &trans    &trans          &kp CARET  &trans    &trans   &kp AMPS         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp BACKSLASH
 &kp LCTRL  &kp LEFT_COMMAND  &trans    &kp LEFT_SHIFT  &trans     &trans    &kp DEL  &kp RIGHT_SHIFT                                             &trans
             >;
